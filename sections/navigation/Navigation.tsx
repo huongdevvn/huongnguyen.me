@@ -1,8 +1,8 @@
 //@ts-nocheck
 
-import Link from 'next/link';
-import { Link as ScrollLink } from 'react-scroll';
-import useDarkMode from 'utils/useDarkMode';
+import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
+import useDarkMode from "utils/useDarkMode";
 import {
   Bull,
   Container,
@@ -10,7 +10,7 @@ import {
   SocialLinksWrapper,
   ThemeWrapper,
   Wrapper,
-} from './Navigation.styled';
+} from "./Navigation.styled";
 
 const Navigation = () => {
   const [colorTheme, setTheme] = useDarkMode();
@@ -19,7 +19,7 @@ const Navigation = () => {
     <Wrapper>
       <Container>
         <Link href="/" passHref>
-          <NameLink>huong-nguyen.dev</NameLink>
+          <NameLink>HUONGNGUYEN.ME</NameLink>
         </Link>
 
         <SocialLinksWrapper>
@@ -44,9 +44,9 @@ const Navigation = () => {
           </ScrollLink>
 
           <ThemeWrapper>
-            {colorTheme === 'light' ? (
+            {colorTheme === "light" ? (
               <svg
-                onClick={() => setTheme('light')}
+                onClick={() => setTheme("light")}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -61,7 +61,7 @@ const Navigation = () => {
               </svg>
             ) : (
               <svg
-                onClick={() => setTheme('dark')}
+                onClick={() => setTheme("dark")}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

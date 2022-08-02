@@ -3,7 +3,7 @@ import tw, { styled, css } from "twin.macro";
 export const Wrapper = tw.div`container px-4 mt-8 `;
 
 export const Container = styled.div(() => [
-  tw` max-w-4xl py-12 mx-auto`,
+  tw`max-w-4xl py-12 mx-auto `,
 
   css`
     & > div {
@@ -37,9 +37,23 @@ export const Container = styled.div(() => [
       }
 
       & > div {
-        ${tw`mt-6 text-gray-400 leading-7 `}
+        ${tw`mt-6 leading-7 text-gray-400 `}
 
         p {
+          line-height: 30px;
+
+          ${tw`
+            my-2 tracking-wide
+            lg:(text-lg)
+            // dark:(text-gray-400)  
+          `}
+
+          &:last-of-type {
+            margin-bottom: 20px;
+          }
+        }
+
+        a {
           line-height: 30px;
 
           ${tw`
