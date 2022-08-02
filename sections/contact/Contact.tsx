@@ -12,24 +12,23 @@ const Contact = () => (
       <div>
         <h3>Get In Touch.</h3>
         <p>
-          Feel free to reach out if you want to talk about anything!
-          {" "}
-          <span role='img' aria-label='waving emoji'>
-             😎 
+          Feel free to reach out if you want to talk about anything!{" "}
+          <span role="img" aria-label="waving emoji">
+            😎
           </span>
         </p>
 
-        <a href='mailto:huonghk@gmail.com'>huonghk@gmail.com</a>
+        <a href="mailto:huonghk.uit@gmail.com">huonghk.uit@gmail.com</a>
       </div>
 
       <div>
         <Fade left delay={500}>
           <Image
             src={rick}
-            alt='Profile'
-            placeholder='blur'
-            className='rounded-full'
-            objectFit='cover'
+            alt="Profile"
+            placeholder="blur"
+            className="rounded-full"
+            objectFit="cover"
             width={200}
             height={200}
           />

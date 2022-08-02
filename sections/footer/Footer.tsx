@@ -1,9 +1,8 @@
-
 import {
   Container,
   FooterWrapper,
   FooterContents,
-  Line
+  Line,
 } from "./Footer.styled";
 
 const Footer = () => {
@@ -17,17 +16,17 @@ const Footer = () => {
 
           <div>
             <a
-              href='https://linkedin.com/in/huonghk'
-              target='_blank'
-              rel='noreferrer'
+              href="https://linkedin.com/in/huongdevvn"
+              target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
 
             <a
-              href='https://github.com/huongdevvn'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/huongdevvn"
+              target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
