@@ -1,0 +1,27 @@
+{
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "importOrder": [
+    "^react",
+    "^clsx$",
+    "^i18n(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@radix",
+    "^api(.*)$",
+    "^tailwind(.*)$",
+    "^app(.*)$",
+    "^pages(.*)$",
+    "^layout(.*)$",
+    "^components(.*)$",
+    "^@types(.*)$",
+    "^utils(.*)$",
+    "^assets(.*)$",
+    "^icons(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": false
+}

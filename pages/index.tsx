@@ -1,26 +1,36 @@
-import type { NextPage } from 'next';
-import 'twin.macro';
+import Head from 'next/head';
+import About from '../components/about';
+import Contact from '../components/contact';
+import Container from '../components/container';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import Projects from '../components/projects';
 
-import { About, Projects, Layout, Contact } from 'sections';
-
-const Home: NextPage = () => {
+const HomePage = () => {
   return (
-    <>
-      <Layout>
-        <div id="about">
-          <About />
-        </div>
+    <div>
+      <Head>
+        <title>Huong Nguyen | Front-end Engineer</title>
+      </Head>
+      <div className="bg-primary-2">
+        <Container>
+          <Header />
+          <div className="my-16">
+            <About />
 
-        <div id="projects">
-          <Projects />
-        </div>
+            <div className="mt-16">
+              <Projects />
+            </div>
 
-        <div id="contact">
-          <Contact />
-        </div>
-      </Layout>
-    </>
+            <div className="mt-16">
+              <Contact />
+            </div>
+          </div>
+          <Footer />
+        </Container>
+      </div>
+    </div>
   );
 };
 
-export default Home;
+export default HomePage;
