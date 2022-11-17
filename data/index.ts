@@ -4,7 +4,7 @@ export const ProjectsData: Project[] = [
   {
     title: '[E-Commerce] Panprices',
     image: 'images/panprices.png',
-    stack: ['Next.js,', 'Typescript', 'TailwindCSS', 'Cypress', 'SEO'],
+    stack: ['Next.js', 'Typescript', 'TailwindCSS', 'Cypress', 'SEO'],
     url: 'https://panprices.com/se-en/',
     github: '',
     summary: `I worked full-time remotely as a Front-end Architect. Panprices creates a hybrid marketplace that enables consumers to discover products, compare prices, and buy what they are looking for cheaper than in their local country.`

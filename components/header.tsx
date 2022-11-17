@@ -7,7 +7,7 @@ const Header = () => {
         <p className="uppercase text-secondary-1 typo-body">huongnguyen.me</p>
       </Link>
 
-      <div className="flex">
+      <div className="sm:flex hidden">
         <Link href="#about" scroll={false}>
           <p className="text-secondary-1 typo-body hover:text-secondary-4">
             About

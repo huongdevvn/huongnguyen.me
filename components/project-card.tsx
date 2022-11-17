@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       </div>
       <div className="p-4">
         <p className="typo-body font-bold text-secondary-4">{project.title}</p>
-        <div className="flex gap-x-4 mt-2">
+        <div className="flex flex-wrap gap-x-4 mt-2">
           {project.stack.map((item, index) => {
             return (
               <p key={index} className="typo-label-2 text-secondary-1">
@@ -27,12 +27,12 @@ const ProjectCard = ({ project }: { project: Project }) => {
             );
           })}
         </div>
-        <p className="typo-label-2 text-secondary-2 mt-4 line-clamp-3">
+        <p className="typo-label-2 text-secondary-2 mt-4 line-clamp-6 lg:line-clamp-3">
           {project.summary}
         </p>
 
         <div className="flex mt-2">
-          <Link href={project.url}>
+          <Link href={project.url} target="_blank">
             <span className="fill-secondary-4 hover:fill-secondary-3">
               <ShareIcon />
             </span>
