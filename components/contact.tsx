@@ -12,7 +12,7 @@ const Contact = () => {
           I&apos;ll try my best to get back to you!
         </p>
         <Link href="mailto:huonghk.uit@gmail.com">
-          <button className="px-3.5 py-2.5 rounded-lg bg-accent-1 hover:bg-accent-2 typo-label text-primary-1  mt-2">
+          <button className="px-3.5 py-2.5 rounded-lg bg-accent-1 hover:bg-accent-2 typo-body text-primary-1  mt-2">
             Say Hello
           </button>
         </Link>
