@@ -66,7 +66,10 @@ module.exports = {
         line: '#1e2d3d'
       },
       container: {
-        padding: '2rem'
+        padding: {
+          DEFAULT: '1rem',
+          lg: '2rem'
+        }
       }
     }
   },
