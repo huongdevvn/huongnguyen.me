@@ -7,12 +7,14 @@ const Contact = () => {
 
       <div className="mt-8">
         <p className="typo-body text-secondary-1">
-          Feel free to reach out if you want to talk about anything! 😎
+          Feel free to reach out if you want to talk about anything!
+          <br />
+          I&apos;ll try my best to get back to you!
         </p>
         <Link href="mailto:huonghk.uit@gmail.com">
-          <p className="text-secondary-4 hover:text-secondary-3 hover:underline typo-body">
-            huonghk.uit@gmail.com
-          </p>
+          <button className="px-3.5 py-2.5 rounded-lg bg-accent-1 hover:bg-accent-2 typo-label text-primary-1  mt-2">
+            Say Hello
+          </button>
         </Link>
       </div>
     </section>

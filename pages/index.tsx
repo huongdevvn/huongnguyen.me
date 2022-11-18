@@ -15,7 +15,8 @@ const HomePage = () => {
       <div className="bg-primary-2">
         <Container>
           <Header />
-          <div className="my-16">
+
+          <div className="py-16">
             <About />
 
             <div className="mt-16">

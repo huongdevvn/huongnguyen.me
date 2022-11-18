@@ -22,19 +22,19 @@ const About = () => {
 
           <div className="flex gap-x-4 mt-8">
             <Link href="https://linkedin.com/in/huongdevvn" target="_blank">
-              <span className="w-8 h-8 fill-secondary-4 hover:fill-secondary-3 inline-block">
+              <span className="w-8 h-8 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
                 <LinkedInIcon />
               </span>
             </Link>
 
             <Link href="https://github.com/huongdevvn" target="_blank">
-              <span className="w-8 h-8 fill-secondary-4 hover:fill-secondary-3 inline-block">
+              <span className="w-8 h-8 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
                 <GithubIcon />
               </span>
             </Link>
 
             <Link href="https://www.facebook.com/huonghk.311" target="_blank">
-              <span className="w-8 h-8 fill-secondary-4 hover:fill-secondary-3 inline-block">
+              <span className="w-8 h-8 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
                 <FacebookIcon />
               </span>
             </Link>

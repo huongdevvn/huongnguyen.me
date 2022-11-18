@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="flex justify-between py-4 border-b border-line">
+    <header className="flex justify-between bg-primary-2 py-4 border-b-2 border-line sticky top-0 z-10">
       <Link href="/">
         <p className="uppercase text-secondary-1 typo-body">huongnguyen.me</p>
       </Link>

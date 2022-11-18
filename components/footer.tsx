@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="text-center py-4 border-t border-line">
+    <footer className="text-center py-4 border-t-2 border-line">
       <p className="typo-label-2 text-secondary-1">
         Built with Next.js, TailwindCSS
       </p>
