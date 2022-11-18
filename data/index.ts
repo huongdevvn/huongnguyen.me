@@ -4,8 +4,8 @@ export const ProjectsData: Project[] = [
   {
     title: '[E-Commerce] Panprices',
     image: 'images/panprices.png',
-    stack: ['Next.js', 'Typescript', 'TailwindCSS', 'Cypress', 'SEO'],
-    url: 'https://panprices.com/se-en/',
+    stack: ['Next.js', 'TypeScript', 'TailwindCSS', 'Cypress', 'SEO'],
+    url: 'https://www.panprices.com/se-en/',
     github: '',
     summary: `I worked full-time remotely as a Front-end Architect. Panprices creates a hybrid marketplace that enables consumers to discover products, compare prices, and buy what they are looking for cheaper than in their local country.`
   },
@@ -13,7 +13,7 @@ export const ProjectsData: Project[] = [
   {
     title: '[Fintech] Ariya Digital',
     image: 'images/ariya.jpeg',
-    stack: ['Next.js', 'JavaScript', 'Styled-Component', 'GraphQL'],
+    stack: ['Next.js', 'JavaScript', 'Styled-Components', 'GraphQL'],
     url: 'https://www.linkedin.com/company/ariyadigital/',
     github: '#',
     summary:
@@ -23,8 +23,8 @@ export const ProjectsData: Project[] = [
   {
     title: '[Healthtech] SENS Motion®',
     image: 'images/sens.jpeg',
-    stack: ['React.js', 'Ionic', 'Typescript', 'TailwindCSS', 'Cypress'],
-    url: 'https://sens.dk/en/company-profile/',
+    stack: ['React.js', 'Ionic', 'TypeScript', 'TailwindCSS', 'Cypress'],
+    url: 'https://www.sens.dk/en/company-profile/',
     github: '#',
     summary:
       'I worked remotely as a Front-end Engineer. SENS Innovation ApS develops medical sensor products, based on advanced sensor technology, for monitoring of physical activity with patients.'
@@ -33,8 +33,8 @@ export const ProjectsData: Project[] = [
   {
     title: '[Fintech] Liquid - Crypto Trading Platform',
     image: 'images/liquid.webp',
-    stack: ['React.js', 'Javascript', 'CSS Modules', 'WebSocket', 'RestAPI'],
-    url: 'https://app.liquid.com/exchange',
+    stack: ['React.js', 'JavaScript', 'CSS Modules', 'WebSocket', 'RestAPI'],
+    url: 'https://www.app.liquid.com/exchange',
     github: '#',
     summary:
       "Joined team from the early-stage as a Front-end Engineer. Liquid is one of the world's largest cryptocurrency-fiat exchange platforms serving millions of customers worldwide."
