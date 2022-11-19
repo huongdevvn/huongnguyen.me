@@ -1,11 +1,12 @@
 import Link from 'next/link';
+import { forwardRef } from 'react';
 import FacebookIcon from '../public/ic-facebook.svg';
 import GithubIcon from '../public/ic-github.svg';
 import LinkedInIcon from '../public/ic-linkedin.svg';
 
-const About = () => {
+const About = forwardRef<HTMLDivElement>((props, ref) => {
   return (
-    <section id="about">
+    <div ref={ref}>
       <div className="xl:grid xl:grid-cols-2 xl:gap-x-10">
         <div>
           <p className="typo-body text-secondary-4">Hi there!👋 I am</p>
@@ -41,8 +42,10 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
-};
+});
+
+About.displayName = 'About';
 
 export default About;

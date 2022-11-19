@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import { forwardRef } from 'react';
 
-const Contact = () => {
+const Contact = forwardRef<HTMLDivElement>((props, ref) => {
   return (
-    <section id="contact">
+    <div ref={ref}>
       <p className="typo-subheadline text-secondary-3">Get In Touch</p>
 
       <div className="mt-8">
@@ -17,8 +18,10 @@ const Contact = () => {
           </button>
         </Link>
       </div>
-    </section>
+    </div>
   );
-};
+});
+
+Contact.displayName = 'Contact';
 
 export default Contact;

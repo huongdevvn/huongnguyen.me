@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRef } from 'react';
 import About from '../components/about';
 import Contact from '../components/contact';
 import Container from '../components/container';
@@ -7,6 +8,31 @@ import Header from '../components/header';
 import Projects from '../components/projects';
 
 const HomePage = () => {
+  const aboutSectionRef = useRef<HTMLDivElement | null>(null);
+  const projectsSectionRef = useRef<HTMLDivElement | null>(null);
+  const contactSectionRef = useRef<HTMLDivElement | null>(null);
+
+  const sections = [
+    { name: 'about', ref: aboutSectionRef },
+    { name: 'projects', ref: projectsSectionRef },
+    { name: 'contact', ref: contactSectionRef }
+  ];
+
+  const scrollToSection = (name: string) => {
+    const section = sections.find(section => section.name == name);
+
+    if (section && section.ref) {
+      window.scrollTo({
+        behavior: 'smooth',
+        top:
+          section.ref.current!.getBoundingClientRect().top -
+          document.body.getBoundingClientRect().top -
+          58 -
+          64
+      });
+    }
+  };
+
   return (
     <div>
       <Head>
@@ -14,19 +40,20 @@ const HomePage = () => {
       </Head>
       <div className="bg-primary-2">
         <Container>
-          <Header />
+          <Header onScrollToSection={scrollToSection} />
 
           <div className="py-16">
-            <About />
+            <About ref={aboutSectionRef} />
 
             <div className="mt-16">
-              <Projects />
+              <Projects ref={projectsSectionRef} />
             </div>
 
             <div className="mt-16">
-              <Contact />
+              <Contact ref={contactSectionRef} />
             </div>
           </div>
+
           <Footer />
         </Container>
       </div>
