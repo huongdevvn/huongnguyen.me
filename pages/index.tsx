@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 import { useRef } from 'react';
 import About from '../components/about';
 import Contact from '../components/contact';
@@ -39,6 +40,20 @@ const HomePage = () => {
         <title>Huong Nguyen | Front-end Engineer</title>
       </Head>
       <div className="bg-primary-2">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HBQVT4HVDF"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-HBQVT4HVDF');
+        `}
+        </Script>
+
         <Container>
           <Header onScrollToSection={scrollToSection} />
 
