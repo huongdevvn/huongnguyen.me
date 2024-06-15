@@ -13,9 +13,9 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
           <p className="typo-headline text-secondary-4">{`Huong Nguyen.`}</p>
           <p className="typo-subheadline text-secondary-3">{`> Front-end engineer`}</p>
           <p className="typo-body text-secondary-1 mt-4">
-            A proactive and enthusiastic developer with 6+ years of experience
+            A proactive and enthusiastic developer with 8+ years of experience
             in a variety of big products and technologies from Crypto Trading
-            Platform to FinTech, eCommerce, and Healthcare Platform.
+            Platform to FinTech, eCommerce, Healthcare Platform, Property Management...
             <br /> <br />I love to write code in a high-paced and challenging
             environment with an emphasis on using best practices to develop
             high-quality products.

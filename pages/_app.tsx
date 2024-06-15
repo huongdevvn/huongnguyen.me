@@ -1,4 +1,4 @@
-import { Fira_Code } from '@next/font/google';
+import { Fira_Code } from 'next/font/google'
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 
