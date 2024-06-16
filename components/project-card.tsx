@@ -11,10 +11,9 @@ const ProjectCard = ({ project }: { project: Project }) => {
           alt="Cover Image"
           src={project.image}
           style={{ objectFit: 'cover' }}
-          useWebp={true}
           fill
           priority
-        ></ExportedImage>
+        />
       </div>
       <div className="p-4">
         <p className="typo-body font-bold text-secondary-4">{project.title}</p>
