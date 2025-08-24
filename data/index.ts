@@ -19,7 +19,7 @@ export const ProjectsData: Project[] = [
     summary: `A new prop tech for property owners - We empower property owners so that they can enjoy peace of mind and focus on growing their portfolio.`
   },
   {
-    title: '[E-Commerce] Panprices',
+    title: '[eCommerce] Panprices',
     image: 'images/panprices.png',
     stack: ['Next.js', 'TypeScript', 'TailwindCSS', 'Cypress', 'SEO'],
     url: 'https://www.panprices.com/se-en/',
