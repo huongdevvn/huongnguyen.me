@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { forwardRef } from 'react';
-import FacebookIcon from '../public/ic-facebook.svg';
+import UpworkIcon from '../public/ic-upwork.svg';
 import GithubIcon from '../public/ic-github.svg';
 import LinkedInIcon from '../public/ic-linkedin.svg';
 
@@ -11,17 +11,12 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
         <div>
           <p className="typo-body text-secondary-4">Hi there!👋 I am</p>
           <p className="typo-headline text-secondary-4">{`Huong Nguyen.`}</p>
-          <p className="typo-subheadline text-secondary-3">{`> Front-end engineer`}</p>
+          <p className="typo-subheadline text-secondary-3">{`> Front-end Lead`}</p>
           <p className="typo-body text-secondary-1 mt-4">
-            A proactive and enthusiastic developer with 8+ years of experience
-            in a variety of big products and technologies from Crypto Trading
-            Platform to FinTech, eCommerce, Healthcare Platform, Property Management...
-            <br /> <br />I love to write code in a high-paced and challenging
-            environment with an emphasis on using best practices to develop
-            high-quality products.
+           With 9 years of experience delivering scalable web applications in fast-paced startup environments. My expertise spans Crypto Trading, FinTech, eCommerce, Healthcare and PropTech. 
+            <br /> <br />I specialize in front-end architecture and modern web technologies, with a strong track record of mentoring teams and collaborating with stakeholders to ship exceptional user experiences.
           </p>
-
-          <div className="flex gap-x-4 mt-8">
+          <div className="flex gap-x-4 mt-8 items-center justify-start">
             <Link href="https://linkedin.com/in/huongdevvn" target="_blank">
               <span className="w-8 h-8 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
                 <LinkedInIcon />
@@ -34,9 +29,9 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
               </span>
             </Link>
 
-            <Link href="https://www.facebook.com/huonghk.311" target="_blank">
-              <span className="w-8 h-8 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
-                <FacebookIcon />
+            <Link href="https://www.upwork.com/freelancers/~01320a9dbc0e1a20aa" target="_blank">
+              <span className="w-8 h-7 fill-secondary-1 opacity-40 hover:opacity-100 inline-block">
+                <UpworkIcon />
               </span>
             </Link>
           </div>

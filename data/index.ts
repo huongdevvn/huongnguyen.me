@@ -2,15 +2,24 @@ import { Project } from '../types';
 
 export const ProjectsData: Project[] = [
   {
+    title: '[eCommerce] Catchbox',
+    image: 'images/catchbox.jpg',
+    stack: ['React.js', 'Next.js', 'TypeScript', 'TailwindCSS', 'React-Aria', 'Supabase', 'PostgreSQL'],
+    url: 'https://catchbox.com',
+    github: '',
+    summary: `Innovative wireless microphone systems designed to boost audience engagement. Known for their throwable Cube mic, Catchbox makes interactive presentations easy and fun, used in classrooms, conferences, and corporate events worldwide.
+`
+  },
+  {
     title: '[PropTech] Rentalis',
     image: 'images/rentalis.jpeg',
     stack: ['React.js', 'TypeScript', 'TailwindCSS', 'PandaCSS', 'RadixUI', 'React-Aria', 'TanStack'],
-    url: 'https://www.rentalis.com/rentalis-en/',
+    url: 'https://www.linkedin.com/company/rentalis-proptech',
     github: '',
     summary: `A new prop tech for property owners - We empower property owners so that they can enjoy peace of mind and focus on growing their portfolio.`
   },
   {
-    title: '[E-Commerce] Panprices',
+    title: '[eCommerce] Panprices',
     image: 'images/panprices.png',
     stack: ['Next.js', 'TypeScript', 'TailwindCSS', 'Cypress', 'SEO'],
     url: 'https://www.panprices.com/se-en/',
