@@ -5,7 +5,7 @@ type ContainerProps = {
 };
 
 const Container = ({ children }: ContainerProps) => {
-  return <div className="container mx-auto">{children}</div>;
+  return <div className="max-w-6xl mx-auto border-x border-zinc-200 dark:border-zinc-900 min-h-screen relative transition-colors">{children}</div>;
 };
 
 export default Container;

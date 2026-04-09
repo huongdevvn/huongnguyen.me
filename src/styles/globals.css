@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-line: #1e2d3d; /* Keeping line explicit just in case */
+  --font-primary: var(--firacode-font), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+@utility clip-path-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
