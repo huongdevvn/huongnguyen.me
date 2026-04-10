@@ -19,7 +19,7 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
         
         <div className="max-w-2xl mt-8">
           <p className="font-primary text-base text-zinc-800 dark:text-zinc-300 leading-relaxed border-l-2 border-zinc-300 dark:border-zinc-800 pl-6 mb-8">
-            With 9 years of experience delivering scalable web applications in fast-paced startup environments. My expertise spans Crypto Trading, FinTech, eCommerce, Healthcare and PropTech. 
+            With 10 years of experience delivering scalable web applications in fast-paced startup environments. My expertise spans Crypto Trading, FinTech, eCommerce, Healthcare and PropTech. 
             <br /> <br />I specialize in front-end architecture and modern web technologies, with a strong track record of mentoring teams and collaborating with stakeholders to ship exceptional user experiences.
           </p>
 

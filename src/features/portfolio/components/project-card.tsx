@@ -5,14 +5,14 @@ import Image from 'next/image';
 const ProjectCard = ({ project, index }: { project: Project; index: number }) => {
   return (
     <div className="bg-white dark:bg-zinc-950 p-8 flex flex-col group hover:bg-zinc-50 dark:hover:bg-zinc-900/20 transition-all border-b border-zinc-200 dark:border-zinc-900 lg:border-none relative">
-      <div className="w-full h-[240px] relative overflow-hidden mb-8 bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-900">
+      <div className="w-full h-[240px] relative overflow-hidden mb-8 bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-800">
         <Image
           alt={project.title}
           src={project.image}
           style={{ objectFit: 'cover' }}
           fill
           priority
-          className="grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105 opacity-80 dark:opacity-40 group-hover:opacity-100"
+          className="transition-all duration-700 scale-100 group-hover:scale-105 opacity-100 dark:opacity-90 brightness-100 dark:brightness-110 group-hover:brightness-110"
         />
       </div>
       
