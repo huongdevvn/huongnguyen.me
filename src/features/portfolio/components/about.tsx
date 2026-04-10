@@ -26,12 +26,12 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-8 border-t border-zinc-300 dark:border-zinc-900">
             <div>
               <p className="text-zinc-400 dark:text-zinc-600 text-[10px] uppercase tracking-widest mb-1">Experience</p>
-              <p className="text-zinc-900 dark:text-zinc-300 font-primary text-sm uppercase font-bold">9+ Years</p>
+              <p className="text-zinc-900 dark:text-zinc-300 font-primary text-sm uppercase font-bold">10 Years</p>
             </div>
 
             <div>
               <p className="text-zinc-400 dark:text-zinc-600 text-[10px] uppercase tracking-widest mb-1">Location</p>
-              <p className="text-zinc-900 dark:text-zinc-300 font-primary text-sm uppercase font-bold">HCMC, VN</p>
+              <p className="text-zinc-900 dark:text-zinc-300 font-primary text-sm uppercase font-bold">Ho Chi Minh City, VN</p>
             </div>
             <div>
               <p className="text-zinc-400 dark:text-zinc-600 text-[10px] uppercase tracking-widest mb-1">Status</p>
